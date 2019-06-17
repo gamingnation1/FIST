@@ -12,11 +12,11 @@ It is meant to be evolutive and upgradable as time goes on.
 
 ## FIST Casing
 
-
+*TBC*
 
 ## FIST Casing V2
 
-
+*TBC*
 
 ## Tutorial for Ubuntu L4T
 
