@@ -98,8 +98,14 @@ I will make a separete tutorail for creating your VM's I highly recommand you to
 
 Also don't allocate to much memory as the switch only have 4GB of RAM, or consider using a lighter **Desktop Environnement**.
 
+More about Qemu usage, installation and setup (here)[https://github.com/Azkali/FIST/blob/master/Qemu/qemu.md]
+
 #### Code-OSS
 
 Which developer environnement would be complete if you don't have a proper code editor.
 
 There are plenty different code editors, I personnaly like *Visual Studio Code* ( Named *code-oss* in ubuntu package system )
+
+#### More infos
+
+More About UbuntuL4T (here)[https://github.com/Azkali/FIST/blob/master/Ubuntu/ubuntu.md]
