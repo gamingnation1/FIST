@@ -48,17 +48,13 @@ Add *-smp $(nproc)* to the script to use all available cores otherwise change *$
 exec qemu-system-x86_64 -m 1024 -smp $(nproc) -hda disk-image-name.img 
 ```
 
-## KVM Acceleration
-
-*TBC*
-
 ## Make qemu VM use fullscreen
 
 Adds -full-screen option to the script
 
 ```
 #!/bin/sh
-exec qemu-system-x86_64 -m 1024 -full-screen -hda disk-image-name.img
+exec qemu-system-x86_64 -m 1024 -vga std -full-screen -hda disk-image-name.img
 ```
 
 ## Resizing the VM image disk
@@ -77,5 +73,5 @@ You can also find a better script where you can input your own image and RAM and
 
 ```
 #!/bin/sh
-exec qemu-system-x86_64 -m 1024 -smp $(nproc) -full-screen -hda disk-image-name.img
+exec qemu-system-x86_64 -m 1024 -smp $(nproc) -vga std -full-screen -hda disk-image-name.img
 ```

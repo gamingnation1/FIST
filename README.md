@@ -106,6 +106,10 @@ Which developer environnement would be complete if you don't have a proper code 
 
 There are plenty different code editors, I personnaly like *Visual Studio Code* ( Named *code-oss* in ubuntu package system )
 
+#### Filezilla
+
+FTP for the Win.
+
 #### More infos
 
 More infos about UbuntuL4T [here](https://github.com/Azkali/FIST/blob/master/Ubuntu/ubuntu.md)
