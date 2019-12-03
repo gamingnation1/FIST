@@ -67,11 +67,31 @@ qemu-img resize disk-image-name.img +XGB
 
 Then in the guest OS resize the partition to fill the empty sapce as needed.
 
-## Final script
+## Finished script
 
-You can also find a better script where you can input your own image and RAM and just launch it.
+Finished script looks like this :
 
 ```
 #!/bin/sh
 exec qemu-system-x86_64 -m 1024 -smp $(nproc) -vga std -full-screen -hda disk-image-name.img
 ```
+
+You can also find a better script named qemu-launcher.sh here you can input your own image and RAM and just launch it.
+
+## Usage of qemu-launcher.sh
+
+To use this script simply launch it with the image as option, the amount of RAM, and the number of CPU cores ( default is all CPU cores available ).
+
+Example :
+
+```
+./qemu-launcher.sh your-image.img 4096
+```
+
+## Script Launcher
+
+You can use this nice scipt launcher to manage your VM scripts [WoM](https://github.com/BNNJ/WoM)
+
+## Thanking
+
+[BNNJ](https://github.com/BNNJ) For his Script Launcher/VM manager binary and releasing his sources.

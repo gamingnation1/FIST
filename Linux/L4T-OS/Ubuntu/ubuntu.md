@@ -28,3 +28,7 @@ Open arandr and right-click on the DSI device -> Orientation -> Change it for Le
 ### Changing your keyboard layout
 
 Right-click on the panel -> Add an item to the panel -> Add keyboard layout handler item to panel -> right-click on the country flag and go to keyboard layout settings -> Untick the option for keeping system layout -> Add your desired layout(s) and place it at the level you want with up and down keys.
+
+### Thanking
+
+[ByLaws]() for porting L4T and UbuntuL4T to the nintendo switch
