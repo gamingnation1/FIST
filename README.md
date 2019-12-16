@@ -6,7 +6,7 @@
 
 ## What is FIST ?
 
-**FIST** is a set of various tools that provides a laptopish experience for the Nintendo Switch with **FedoraL4T**, **UbuntuL4T**, **Android switchroot**, **EmuNAND**, **LakkaL4T** and a **CFW** on 1 SD card.
+**FIST** is a set of various tools that provides a laptopish experience for the Nintendo Switch with **FedoraL4T**, **UbuntuL4T**, **Android switchroot**, **EmuNAND** and **LakkaL4T** on 1 SD card.
 
 ## SD Card setup
 
@@ -20,7 +20,6 @@ The most tricky part is to have a correct layout with a **hybrid MBR** boot sect
 
 #### Pre requisite
 
-- Any CFW or equivalent
 - [LakkaL4T](https://lakka-switch.github.io/documentation/archives.html)
 - [L4T Ubuntu image](https://gbatemp.net/threads/l4t-ubuntu-a-fully-featured-linux-on-your-switch.537301/)
 -  [Android Switchroot - 16GB image](https://forum.xda-developers.com/nintendo-switch/nintendo-switch-news-guides-discussion--development/rom-switchroot-lineageos-15-1-t3951389)
@@ -58,7 +57,7 @@ The most tricky part is to have a correct layout with a **hybrid MBR** boot sect
 
 #### Setting up filesystem
 
-1. Extract **CFW** and **LakkaL4T** to /dev/\<partition>1.
+1. Extract **LakkaL4T** to /dev/\<partition>1.
 
 2. Extract android-16gb.img.gz & mount android.img using : ``` mount /dev/loop0p1 /mnt ```
 
