@@ -154,3 +154,5 @@ gdisk /dev/<path to sdcard> sdX or mmcblk0
 - Launch Hekate
 - Make sure to have a backup of your NAND here
 - Go to Payloads > Create emuMMC > SD Partition, and enable it
+
+All credits goes to [GavinDarkglider](https://github.com/GavinDarkglider)
