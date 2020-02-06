@@ -65,12 +65,12 @@ dd if=/dev/loop0p4 of=/dev/<sdcard>5 bs=256M
 dd if=/dev/loop0p5 of=/dev/<sdcard>6 bs=256M
 dd if=/dev/loop0p6 of=/dev/<sdcard>7 bs=256M
 ```
-*\*(Optional) We are skipping userdata folder: If you want to copy userdata from a pre-setup card, then you will need to mount both SD cards userdata partitions, and use ```cp -Pr /path/to/existing/userdata /path/to/new/userdata```*
+*\*(Optional) We are skipping userdata folder: If you want to copy userdata from a pre-setup card, then you will need to mount both SD cards userdata partitions, and use ```cp -pr /path/to/existing/userdata /path/to/new/userdata```*
 
 7. Mount ubuntu root partition <image>p2, and `ubuntu` partition from the sdcard <sdcard>p9.
 
 8. Copy data from one to the other using 
-``` cp -Pr /path/to/linux/root/data /dev/<sdcard>p9 ```
+``` cp -pr /path/to/linux/root/data /dev/<sdcard>p9 ```
 
 9. /etc/fstab should only contain :
 
